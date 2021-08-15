@@ -1,0 +1,25 @@
+* silentN0iiise idealisacion ,proceso y planeacion , con algunas notas
+** idealisacion
+*** app
+    una app para permitir reproducir el archivo multimiedia y para sincronisar
+**** app para apple
+**** app para android
+**** reproductor
+*** servidor web
+un servidor web con informacion y herramientas util como una parte administrativa , una que genere un QR para conectarse  , infomativa 
+**** web administrativa
+ una web para pausar , continuar , sincronisar
+*** qr
+lee un qr que genera una url con un token nesaria para descargar el archivo multimedia, y el token nesario para acceder a la trasmision 
+*** trasmision de datos 
+**** datos a trasmitir
+**** arquitecura
+servidor-cliente, el servidor controlara el reproductor de todos los clientes en una red local .
+**** problema de latencia y idea para optimisarlo
+si se trasmite un adudio hay mayor datos a trasmitir , si se trasmite instrucciones sobre el audio no abria tanto problema
+**** otros problemas
+** planeacion
+*** trasmision de datos
+*** acoplar recepcion de comandos a las app
+** notas
+   silentN0iiise , es un nombre para que no sea facil de decir lo y genere ruido por que el proyecto se trata de no hacer ruido
