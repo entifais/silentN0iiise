@@ -5,6 +5,7 @@
 **** app para apple
 **** app para android
 **** reproductor
+     se nesesita crear un reproductor desde la app , para controlar la reproduccion del audio , para pusar ,despausar, sincronisar (enviar tiempo donde esta el audio),habilitar solitudes de sicronisacion y deshabilitar
 *** servidor web
 un servidor web con informacion y herramientas util como una parte administrativa , una que genere un QR para conectarse  , infomativa 
 **** web administrativa
@@ -13,11 +14,18 @@ un servidor web con informacion y herramientas util como una parte administrativ
 lee un qr que genera una url con un token nesaria para descargar el archivo multimedia, y el token nesario para acceder a la trasmision 
 *** trasmision de datos 
 **** datos a trasmitir
+desde el proyector trasmitira
+- pausa (un False)
+- continuar (un True)
+- tiempo de sicronisacion
+desde la app
+- solicitud de sincronisacion
 **** arquitecura
 servidor-cliente, el servidor controlara el reproductor de todos los clientes en una red local .
 **** problema de latencia y idea para optimisarlo
 si se trasmite un adudio hay mayor datos a trasmitir , si se trasmite instrucciones sobre el audio no abria tanto problema
 **** otros problemas
+prototipar en la U , la red de la U sanciona o impide algunas formas de trasmitir datos, protocolos como p2p , irc ... (el problema de la red de desconocimiento)
 ** planeacion
 *** trasmision de datos
 *** acoplar recepcion de comandos a las app
