@@ -1,0 +1,16 @@
+{% extends  'template.html'%}
+{% block content %}
+<p>sound file</p>
+<input type="file" name="fileAudio">
+<p>sound url of audio file</p>
+<input type="text" name="urlForAudio">
+<label>file</label>
+<input type="radio" name="audiofrom">
+<label>url</label>
+<input type="radio" name="audiofrom">
+<br>
+<hr>
+<br>
+<a href="/pause">pause</a>
+<a href="/continiu">continiu</a>
+{% endblock  %}
