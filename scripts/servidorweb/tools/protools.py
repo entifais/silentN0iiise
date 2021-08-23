@@ -1,4 +1,5 @@
 from flask import request
+import requests
 def multrequest(items):	
 	values = []
 	for item in items:		
@@ -9,9 +10,7 @@ def multrequest(items):
 			item = str(item)
 		values.append(item)
 	return values
-def multrequestStr(items):	
-	values = []
-	for item in items:		
-		item = str(request.form.get(item))
-		values.append(item)
-	return values
+def getImg(url,imgname):
+	imgrequ = requests.get(url).content
+	with open(imgname, "wb") as file:
+		file.write(imgrequ)
