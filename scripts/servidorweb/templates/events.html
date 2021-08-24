@@ -1,0 +1,24 @@
+{% extends  'template.html'%}
+{% block content %}
+<h2>evenetos disponibles</h2>
+<table>
+	<tr>
+		<th>
+			nombre evento
+		</th>
+		<th>
+			acceder <!--QR,token and download file-->
+		</th>
+		<th>
+			administrar <!--control and play auduio-->
+		</th>
+	</tr>	
+{% for i in audios %}
+	<tr>
+		<td>i</td>
+		<td><a href="acces/i">acceder</a></td>
+		<td><a href="admin/i">administar</a></td>
+	</tr>
+{% endfor %}
+</table>
+{% endblock  %}
