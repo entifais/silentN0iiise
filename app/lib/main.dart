@@ -1,20 +1,25 @@
-import 'package:app/screens/audioScreen.dart';
+import 'package:app/screens/scan_screen.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 
-void main() {
-  runApp(MyApp());
-}
+import 'screens/audio_screen.dart';
 
-class MyApp extends StatelessWidget {
+void main() => runApp(const MaterialApp(home: MyHome()));
+
+class MyHome extends StatelessWidget {
+  const MyHome({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: AudioScreen(),
+      debugShowCheckedModeBanner: false,
+      routes: {
+        '/HomeScreen': (context) => const ScanScreen(),
+        '/ScanScreen': (context) => const QRViewExample(),
+        '/AudioScreen': (context) => const AudioScreen()
+      },
+      title: 'silentN0iiise',
+      home: const ScanScreen(),
     );
   }
 }
