@@ -3,3 +3,9 @@ idea to make parties in a silent way, taking advantage of the fact that people u
  
 ### notes
 https://trello.com/b/KgKgBGfg/silentn0iiise
+
+app 
+
+https://play.google.com/store/apps/details?id=co.eafit.silentN0iiise&hl=de&gl=CH
+
+https://github.com/entifais/appSilentN0iiise
