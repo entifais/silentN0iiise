@@ -6,6 +6,6 @@ https://trello.com/b/KgKgBGfg/silentn0iiise
 
 app 
 
-https://play.google.com/store/apps/details?id=co.eafit.silentN0iiise&hl=de&gl=CH
+https://play.google.com/store/apps/details?id=co.eafit.silentN0iiise
 
 https://github.com/entifais/appSilentN0iiise
